@@ -8,3 +8,4 @@ before_install:
   - test ! -d $GOPATH/src/github.com/senorprogrammer/wtf && mv $TRAVIS_BUILD_DIR $GOPATH/src/github.com/senorprogrammer/cfssl || true
   - export TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/senorprogrammer/wtf
 + - cd $HOME/gopath/src/github.com/senorprogrammer/wtf
+# test
